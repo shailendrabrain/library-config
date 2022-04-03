@@ -3,6 +3,8 @@ server:
   
 eureka:
   client:
-    service-url: http://eureka:8762/eureka
+    service-url: http://eureka:8761/eureka
      defualtZone: http://eureka:8761/eurekafromconfigbranch
-      
+
+
+server.application.name=book-service-from-config-server
