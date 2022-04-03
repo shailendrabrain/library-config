@@ -1,0 +1,8 @@
+server:
+  port: 8889
+  
+eureka:
+  client:
+    service-url:
+     defualtZone: http://eureka:8761/eurekafromconfigbranch
+      

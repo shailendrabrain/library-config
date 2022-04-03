@@ -1,0 +1,32 @@
+server:
+  port: 2000
+  
+eureka:
+  client:
+    service-url:
+     defualtZone: http://eureka:8761/eurekafromconfigbranch
+      
+
+
+
+    
+
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,beans,health,conditions,mappings,metrics,env,threaddump,httptrace
+  endpoint:
+    health:
+      show-details: always
+
+
+
+
+spring: 
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+ 
