@@ -1,8 +1,13 @@
 server:
   port: 0
+
+
   
 eureka:
   client:
     service-url:
      defualtZone: http://eureka:8761/eurekafromconfigbranch
       
+spring: 
+  application:
+    name:user-service-config-cloud
