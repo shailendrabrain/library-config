@@ -3,6 +3,6 @@ server:
   
 eureka:
   client:
-    service-url:
+    service-url: http://eureka:8762/eureka
      defualtZone: http://eureka:8761/eurekafromconfigbranch
       
