@@ -12,6 +12,8 @@ eureka:
     
 
     
+
+    
 management:
   endpoints:
     web:
@@ -23,12 +25,11 @@ management:
 
 
 
-
-spring:
+spring: 
   application:
-    name:book-service-cloud-config 
+    name: book-service-cloud-config
   jpa:
     generate-ddl: true
     hibernate:
       ddl-auto: update
- 
+  
