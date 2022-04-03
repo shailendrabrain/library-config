@@ -8,5 +8,5 @@ eureka:
      
 book:
   service:
-      name:book-service-config
+      name: book-service-config
       
