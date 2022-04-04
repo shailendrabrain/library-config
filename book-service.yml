@@ -27,7 +27,7 @@ management:
 
 spring:
   application:
-    name: book-service-config
+    name: book-service
 
   jpa:
     generate-ddl: true
