@@ -12,9 +12,19 @@ eureka:
 spring:
   cloud:
     gateway:
+      routes:
+      - id: book-service
+        uri: lb://book-service
+        predicates:
+        - path=/books/**
+        filters:
+        - RewritePath=/books/(?<path>.*),/$\{path}
       discovery.locator:
         enabled: true
         lowerCaseSErviceId: true
+        
+        
+        
         
         
 management:
