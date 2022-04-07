@@ -9,4 +9,11 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     
+spring:
+  cloud:
+    gateway:
+      discovery.locator:
+        enabled: true
+        lowerCaseSErviceId: true
+
 #    service-url: http://eurekaserver:8761/eureka/  
