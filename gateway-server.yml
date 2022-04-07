@@ -1,6 +1,12 @@
+server:
+  port: 8072
+  
 
-server.port: 8072
-
-eureka.instance.prefer-ip-address: true
-eureka.client.register-with-eureka: true
-eureka.client.fetch-registry: true
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    
+#    service-url: http://eurekaserver:8761/eureka/  
