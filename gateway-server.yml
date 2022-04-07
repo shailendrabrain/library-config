@@ -15,5 +15,12 @@ spring:
       discovery.locator:
         enabled: true
         lowerCaseSErviceId: true
+        
+        
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"        
 
 #    service-url: http://eurekaserver:8761/eureka/  
