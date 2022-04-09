@@ -16,7 +16,7 @@ spring:
       - id: book-service
         uri: lb://book-service
         predicates:
-        - path=/books/**
+        - Path=/books/**
         filters:
         - RewritePath=/books/(?<path>.*),/$\{path}
       discovery.locator:
